@@ -1,0 +1,59 @@
+//
+//  PrefixHeader.pch
+//  ALiLikePurchase
+//
+//  Created by mac on 2019/8/13.
+//  Copyright © 2019 郭超. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "DefinedURLs.h"
+
+#import "DefinedKeys.h"
+
+#import "DefinedColors.h"
+
+#import "DefinedEnums.h"
+
+#import "DefineBlocks.h"
+
+#import <SDWebImage.h>
+
+#import <MJExtension.h>
+
+#import <AFNetworking.h>
+
+#import "DataManager.h"
+
+#import "WXManager.h"
+
+
+#import "User.h"
+
+//#import <AlipaySDK/AlipaySDK.h>
+
+//#import <AlibcTradeSDK/AlibcTradeSDK.h>
+
+//#import <AlibabaAuthSDK/ALBBSDK.h>
+
+#import <MBProgressHUD/MBProgressHUD.h>
+
+#import <MJRefresh/MJRefresh.h>
+
+#import <SVProgressHUD.h>
+
+#import <WXApi.h>
+
+#import <Bugly/Bugly.h>
+
+
+
+#endif /* PrefixHeader_pch */

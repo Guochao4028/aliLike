@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ALiLikePurchase' do
+
+pod 'MJRefresh'
+pod 'RESideMenu'
+#pod 'AFNetworking'
+pod 'AFNetworking', '~> 3.0'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'SVProgressHUD'
+
+#pod 'AlibcTradeSDK'
+
+pod 'WechatOpenSDK'
+
+pod 'Bugly'
+
+end
